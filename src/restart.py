@@ -5,7 +5,7 @@ class Restart:
     def __init__(self):
         self.font = pygame.font.Font("assets/fonts/Roboto/Roboto-Medium.ttf", 40)
         self.rect = pygame.Rect(0, 0, 200, 120)
-        self.rect.center = (SCREEN_WIDTH / 2, (SCREEN_HEIGHT - MARGIN_TOP) / 2 + CELL_SIZE + 7)
+        self.rect.center = (SCREEN_WIDTH / 2, 735)
         self.content = self.font.render("Restart", True, RESTART_TEXT)
         self.color = RESTART_BG
 
